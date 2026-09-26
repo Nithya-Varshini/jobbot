@@ -1,0 +1,639 @@
+{
+ "Acceldata": {
+  "ats": "lever",
+  "slug": "acceldata"
+ },
+ "Acko": {
+  "miss_at": "2026-09-26T18:05:23.156353+00:00"
+ },
+ "Adyen": {
+  "ats": "greenhouse",
+  "slug": "adyen"
+ },
+ "Agoda": {
+  "ats": "greenhouse",
+  "slug": "agoda"
+ },
+ "Airbnb": {
+  "ats": "greenhouse",
+  "slug": "airbnb"
+ },
+ "Airtel Digital": {
+  "miss_at": "2026-09-26T18:05:32.306033+00:00"
+ },
+ "Airwallex": {
+  "ats": "ashby",
+  "slug": "airwallex"
+ },
+ "Appsmith": {
+  "miss_at": "2026-09-26T18:05:37.752656+00:00"
+ },
+ "Atlan": {
+  "ats": "ashby",
+  "slug": "atlan"
+ },
+ "Atlassian": {
+  "miss_at": "2026-09-26T18:05:40.534952+00:00"
+ },
+ "Babbel": {
+  "ats": "ashby",
+  "slug": "babbel"
+ },
+ "Backbase": {
+  "miss_at": "2026-09-26T18:05:49.132749+00:00"
+ },
+ "Bending Spoons": {
+  "miss_at": "2026-09-26T18:05:52.090697+00:00"
+ },
+ "Bitpanda": {
+  "ats": "greenhouse",
+  "slug": "bitpanda"
+ },
+ "Blinkist": {
+  "miss_at": "2026-09-26T18:05:51.509159+00:00"
+ },
+ "BookMyShow": {
+  "miss_at": "2026-09-26T18:05:31.348324+00:00"
+ },
+ "BrowserStack": {
+  "miss_at": "2026-09-26T18:05:33.064935+00:00"
+ },
+ "CRED": {
+  "ats": "lever",
+  "slug": "cred"
+ },
+ "Canva": {
+  "ats": "smartrecruiters",
+  "slug": "canva"
+ },
+ "Careem": {
+  "ats": "greenhouse",
+  "slug": "careem"
+ },
+ "Carousell": {
+  "miss_at": "2026-09-26T18:05:55.284855+00:00"
+ },
+ "Cars24": {
+  "ats": "smartrecruiters",
+  "slug": "cars24"
+ },
+ "Cashfree": {
+  "miss_at": "2026-09-26T18:05:21.132570+00:00"
+ },
+ "Celonis": {
+  "ats": "greenhouse",
+  "slug": "celonis"
+ },
+ "Chargebee": {
+  "miss_at": "2026-09-26T18:05:37.241264+00:00"
+ },
+ "Classplus": {
+  "miss_at": "2026-09-26T18:05:28.743768+00:00"
+ },
+ "Cleo AI": {
+  "miss_at": "2026-09-26T18:05:50.633479+00:00"
+ },
+ "CleverTap": {
+  "miss_at": "2026-09-26T18:05:34.911051+00:00"
+ },
+ "Cloudflare": {
+  "ats": "greenhouse",
+  "slug": "cloudflare"
+ },
+ "Coinbase": {
+  "ats": "greenhouse",
+  "slug": "coinbase"
+ },
+ "Composio": {
+  "ats": "ashby",
+  "slug": "composio"
+ },
+ "Confluent": {
+  "ats": "ashby",
+  "slug": "confluent"
+ },
+ "Contentful": {
+  "ats": "greenhouse",
+  "slug": "contentful"
+ },
+ "Cult.fit": {
+  "miss_at": "2026-09-26T18:05:27.842882+00:00"
+ },
+ "DE Shaw": {
+  "miss_at": "2026-09-26T18:05:42.667818+00:00"
+ },
+ "Darwinbox": {
+  "miss_at": "2026-09-26T18:05:34.006410+00:00"
+ },
+ "Databricks": {
+  "ats": "greenhouse",
+  "slug": "databricks"
+ },
+ "Deel": {
+  "miss_at": "2026-09-26T18:05:55.415497+00:00"
+ },
+ "Delhivery": {
+  "miss_at": "2026-09-26T18:05:42.464405+00:00"
+ },
+ "Deliveroo": {
+  "ats": "greenhouse",
+  "slug": "deliveroo"
+ },
+ "Delivery Hero": {
+  "ats": "smartrecruiters",
+  "slug": "DeliveryHero"
+ },
+ "Dezerv": {
+  "miss_at": "2026-09-26T18:05:21.576101+00:00"
+ },
+ "Doist": {
+  "miss_at": "2026-09-26T18:05:55.606491+00:00"
+ },
+ "DoorDash": {
+  "ats": "greenhouse",
+  "slug": "doordashusa"
+ },
+ "Dream11": {
+  "miss_at": "2026-09-26T18:05:25.276290+00:00"
+ },
+ "Drivetrain": {
+  "ats": "lever",
+  "slug": "drivetrain"
+ },
+ "Druva": {
+  "ats": "greenhouse",
+  "slug": "druva"
+ },
+ "Eloelo": {
+  "miss_at": "2026-09-26T18:05:28.645163+00:00"
+ },
+ "Exotel": {
+  "miss_at": "2026-09-26T18:05:36.955617+00:00"
+ },
+ "FamPay": {
+  "ats": "lever",
+  "slug": "fampay"
+ },
+ "Fi Money": {
+  "ats": "lever",
+  "slug": "epifi"
+ },
+ "Flo Health": {
+  "ats": "greenhouse",
+  "slug": "flohealth"
+ },
+ "Freshworks": {
+  "ats": "smartrecruiters",
+  "slug": "freshworks"
+ },
+ "Games24x7": {
+  "miss_at": "2026-09-26T18:05:24.271374+00:00"
+ },
+ "GetYourGuide": {
+  "ats": "greenhouse",
+  "slug": "getyourguide"
+ },
+ "GitLab": {
+  "ats": "greenhouse",
+  "slug": "gitlab"
+ },
+ "Glance": {
+  "ats": "greenhouse",
+  "slug": "glance"
+ },
+ "Gojek": {
+  "miss_at": "2026-09-26T18:05:40.632469+00:00"
+ },
+ "Grab": {
+  "ats": "smartrecruiters",
+  "slug": "grab"
+ },
+ "Grammarly": {
+  "miss_at": "2026-09-26T18:05:55.294810+00:00"
+ },
+ "Groww": {
+  "ats": "greenhouse",
+  "slug": "groww"
+ },
+ "Gupshup": {
+  "miss_at": "2026-09-26T18:05:36.734560+00:00"
+ },
+ "Harness": {
+  "ats": "greenhouse",
+  "slug": "harnessinc"
+ },
+ "Hasura": {
+  "miss_at": "2026-09-26T18:05:34.065726+00:00"
+ },
+ "Headout": {
+  "miss_at": "2026-09-26T18:05:27.308035+00:00"
+ },
+ "HelloFresh": {
+  "ats": "greenhouse",
+  "slug": "hellofresh"
+ },
+ "Hevo Data": {
+  "ats": "lever",
+  "slug": "hevodata"
+ },
+ "Highlevel": {
+  "ats": "lever",
+  "slug": "gohighlevel"
+ },
+ "INDmoney": {
+  "miss_at": "2026-09-26T18:05:20.180421+00:00"
+ },
+ "InMobi": {
+  "ats": "greenhouse",
+  "slug": "inmobi"
+ },
+ "Innovaccer": {
+  "miss_at": "2026-09-26T18:05:34.902703+00:00"
+ },
+ "Ixigo": {
+  "ats": "smartrecruiters",
+  "slug": "ixigo"
+ },
+ "Jar": {
+  "miss_at": "2026-09-26T18:05:21.356607+00:00"
+ },
+ "JioHotstar": {
+  "miss_at": "2026-09-26T18:05:32.999471+00:00"
+ },
+ "Jupiter": {
+  "miss_at": "2026-09-26T18:05:21.634979+00:00"
+ },
+ "Juspay": {
+  "miss_at": "2026-09-26T18:05:19.148080+00:00"
+ },
+ "Khatabook": {
+  "miss_at": "2026-09-26T18:05:22.829319+00:00"
+ },
+ "Kissflow": {
+  "miss_at": "2026-09-26T18:05:38.181877+00:00"
+ },
+ "Kitopi": {
+  "miss_at": "2026-09-26T18:05:53.238788+00:00"
+ },
+ "Kiwi": {
+  "miss_at": "2026-09-26T18:05:21.895873+00:00"
+ },
+ "Klarna": {
+  "miss_at": "2026-09-26T18:05:51.291862+00:00"
+ },
+ "Kuku FM": {
+  "miss_at": "2026-09-26T18:05:32.192131+00:00"
+ },
+ "LeadSquared": {
+  "miss_at": "2026-09-26T18:05:34.069119+00:00"
+ },
+ "Lenskart": {
+  "miss_at": "2026-09-26T18:05:36.825144+00:00"
+ },
+ "Licious": {
+  "miss_at": "2026-09-26T18:05:26.748357+00:00"
+ },
+ "M2P Fintech": {
+  "miss_at": "2026-09-26T18:05:23.341932+00:00"
+ },
+ "MPL": {
+  "miss_at": "2026-09-26T18:05:27.074411+00:00"
+ },
+ "MakeMyTrip": {
+  "miss_at": "2026-09-26T18:05:30.721088+00:00"
+ },
+ "Mambu": {
+  "miss_at": "2026-09-26T18:05:49.378637+00:00"
+ },
+ "Media.net": {
+  "ats": "smartrecruiters",
+  "slug": "medianet"
+ },
+ "Meesho": {
+  "ats": "lever",
+  "slug": "meesho"
+ },
+ "Mercari": {
+  "miss_at": "2026-09-26T18:05:54.208131+00:00"
+ },
+ "Mindtickle": {
+  "ats": "lever",
+  "slug": "mindtickle"
+ },
+ "Miro": {
+  "ats": "greenhouse",
+  "slug": "realtimeboardglobal"
+ },
+ "MoEngage": {
+  "miss_at": "2026-09-26T18:05:34.854103+00:00"
+ },
+ "Mobikwik": {
+  "miss_at": "2026-09-26T18:05:22.981201+00:00"
+ },
+ "Mollie": {
+  "ats": "ashby",
+  "slug": "mollie"
+ },
+ "Money Forward": {
+  "miss_at": "2026-09-26T18:05:54.249892+00:00"
+ },
+ "Monzo": {
+  "ats": "greenhouse",
+  "slug": "monzo"
+ },
+ "Myntra": {
+  "miss_at": "2026-09-26T18:05:31.717181+00:00"
+ },
+ "N26": {
+  "ats": "greenhouse",
+  "slug": "n26"
+ },
+ "Navi": {
+  "miss_at": "2026-09-26T18:05:19.258681+00:00"
+ },
+ "Nium": {
+  "ats": "lever",
+  "slug": "nium"
+ },
+ "Nubank": {
+  "ats": "ashby",
+  "slug": "nubank"
+ },
+ "Nutanix": {
+  "miss_at": "2026-09-26T18:05:41.688486+00:00"
+ },
+ "Nykaa": {
+  "miss_at": "2026-09-26T18:05:27.855319+00:00"
+ },
+ "Observe.AI": {
+  "ats": "greenhouse",
+  "slug": "observeai"
+ },
+ "OkCredit": {
+  "miss_at": "2026-09-26T18:05:22.958814+00:00"
+ },
+ "Okta": {
+  "ats": "greenhouse",
+  "slug": "okta"
+ },
+ "OneCard": {
+  "miss_at": "2026-09-26T18:05:22.119217+00:00"
+ },
+ "PayPay": {
+  "ats": "greenhouse",
+  "slug": "paypay"
+ },
+ "Paytm": {
+  "ats": "lever",
+  "slug": "paytm"
+ },
+ "Personio": {
+  "ats": "recruitee",
+  "slug": "personio"
+ },
+ "PhonePe": {
+  "miss_at": "2026-09-26T18:05:17.885613+00:00"
+ },
+ "PhysicsWallah": {
+  "miss_at": "2026-09-26T18:05:33.153406+00:00"
+ },
+ "Picnic": {
+  "ats": "smartrecruiters",
+  "slug": "picnic"
+ },
+ "Plivo": {
+  "miss_at": "2026-09-26T18:05:36.318816+00:00"
+ },
+ "Plum": {
+  "miss_at": "2026-09-26T18:05:23.256959+00:00"
+ },
+ "Pocket FM": {
+  "ats": "lever",
+  "slug": "pocketfm"
+ },
+ "PolicyBazaar": {
+  "miss_at": "2026-09-26T18:05:23.326648+00:00"
+ },
+ "Porter": {
+  "miss_at": "2026-09-26T18:05:30.912464+00:00"
+ },
+ "Postman": {
+  "miss_at": "2026-09-26T18:05:41.868980+00:00"
+ },
+ "Property Finder": {
+  "miss_at": "2026-09-26T18:05:53.239674+00:00"
+ },
+ "Rakuten": {
+  "miss_at": "2026-09-26T18:05:54.323041+00:00"
+ },
+ "Rapido": {
+  "miss_at": "2026-09-26T18:05:24.976591+00:00"
+ },
+ "Razorpay": {
+  "ats": "greenhouse",
+  "slug": "razorpaysoftwareprivatelimited"
+ },
+ "Revolut": {
+  "miss_at": "2026-09-26T18:05:50.493949+00:00"
+ },
+ "Rippling": {
+  "miss_at": "2026-09-26T18:05:44.192315+00:00"
+ },
+ "Rocketlane": {
+  "miss_at": "2026-09-26T18:05:35.826746+00:00"
+ },
+ "Rubrik": {
+  "ats": "greenhouse",
+  "slug": "rubrik"
+ },
+ "Sarvam AI": {
+  "ats": "ashby",
+  "slug": "sarvam"
+ },
+ "Scapia": {
+  "miss_at": "2026-09-26T18:05:20.511534+00:00"
+ },
+ "Seekho": {
+  "miss_at": "2026-09-26T18:05:33.265426+00:00"
+ },
+ "Setu": {
+  "miss_at": "2026-09-26T18:05:19.082542+00:00"
+ },
+ "ShareChat / Moj": {
+  "miss_at": "2026-09-26T18:05:25.757420+00:00"
+ },
+ "Shopee / Sea": {
+  "miss_at": "2026-09-26T18:05:55.802550+00:00"
+ },
+ "SigNoz": {
+  "ats": "ashby",
+  "slug": "signoz"
+ },
+ "SmartNews": {
+  "miss_at": "2026-09-26T18:05:54.359682+00:00"
+ },
+ "Snitch": {
+  "miss_at": "2026-09-26T18:05:32.380216+00:00"
+ },
+ "Spenny": {
+  "miss_at": "2026-09-26T18:05:22.990225+00:00"
+ },
+ "Spinny": {
+  "miss_at": "2026-09-26T18:05:26.486526+00:00"
+ },
+ "Spotify": {
+  "ats": "lever",
+  "slug": "spotify"
+ },
+ "Sprinklr": {
+  "miss_at": "2026-09-26T18:05:41.832590+00:00"
+ },
+ "Sprinto": {
+  "miss_at": "2026-09-26T18:05:37.514459+00:00"
+ },
+ "Stable Money": {
+  "miss_at": "2026-09-26T18:05:22.021566+00:00"
+ },
+ "Stage OTT": {
+  "ats": "greenhouse",
+  "slug": "stage"
+ },
+ "Stripe": {
+  "ats": "greenhouse",
+  "slug": "stripe"
+ },
+ "SumUp": {
+  "ats": "greenhouse",
+  "slug": "sumup"
+ },
+ "Swiggy": {
+  "ats": "smartrecruiters",
+  "slug": "swiggy"
+ },
+ "Tabby": {
+  "miss_at": "2026-09-26T18:05:53.123165+00:00"
+ },
+ "Talabat": {
+  "miss_at": "2026-09-26T18:05:53.194915+00:00"
+ },
+ "Tamara": {
+  "ats": "greenhouse",
+  "slug": "tamara"
+ },
+ "Tata 1mg": {
+  "miss_at": "2026-09-26T18:05:28.398554+00:00"
+ },
+ "Taxfix": {
+  "miss_at": "2026-09-26T18:05:50.052361+00:00"
+ },
+ "Tekion": {
+  "ats": "ashby",
+  "slug": "tekion"
+ },
+ "ThoughtSpot": {
+  "miss_at": "2026-09-26T18:05:41.855909+00:00"
+ },
+ "Tier / Dott": {
+  "miss_at": "2026-09-26T18:05:53.291863+00:00"
+ },
+ "Toggl": {
+  "miss_at": "2026-09-26T18:05:55.744749+00:00"
+ },
+ "Trade Republic": {
+  "ats": "greenhouse",
+  "slug": "traderepublic"
+ },
+ "Twilio": {
+  "ats": "greenhouse",
+  "slug": "twilio"
+ },
+ "Ultrahuman": {
+  "miss_at": "2026-09-26T18:05:27.079028+00:00"
+ },
+ "Unacademy": {
+  "ats": "smartrecruiters",
+  "slug": "unacademy"
+ },
+ "Uni Cards": {
+  "miss_at": "2026-09-26T18:05:22.022681+00:00"
+ },
+ "Uniphore": {
+  "miss_at": "2026-09-26T18:05:36.952427+00:00"
+ },
+ "Urban Company": {
+  "miss_at": "2026-09-26T18:05:31.709643+00:00"
+ },
+ "Very Good Ventures": {
+  "miss_at": "2026-09-26T18:05:56.598337+00:00"
+ },
+ "Vinted": {
+  "miss_at": "2026-09-26T18:05:52.172362+00:00"
+ },
+ "Visa": {
+  "miss_at": "2026-09-26T18:05:41.070183+00:00"
+ },
+ "WebEngage": {
+  "miss_at": "2026-09-26T18:05:35.414142+00:00"
+ },
+ "Whatfix": {
+  "ats": "smartrecruiters",
+  "slug": "whatfix"
+ },
+ "WinZO": {
+  "miss_at": "2026-09-26T18:05:26.152289+00:00"
+ },
+ "Wise": {
+  "ats": "greenhouse",
+  "slug": "wise"
+ },
+ "Wolt": {
+  "ats": "greenhouse",
+  "slug": "wolt"
+ },
+ "Xendit": {
+  "ats": "greenhouse",
+  "slug": "xendit"
+ },
+ "Yellow.ai": {
+  "miss_at": "2026-09-26T18:05:44.183762+00:00"
+ },
+ "Zalando": {
+  "miss_at": "2026-09-26T18:05:51.393763+00:00"
+ },
+ "Zepto": {
+  "miss_at": "2026-09-26T18:05:25.573243+00:00"
+ },
+ "Zerodha": {
+  "miss_at": "2026-09-26T18:05:18.046258+00:00"
+ },
+ "Zeta": {
+  "ats": "lever",
+  "slug": "zeta"
+ },
+ "Zluri": {
+  "miss_at": "2026-09-26T18:05:35.678421+00:00"
+ },
+ "Zomato / Blinkit": {
+  "miss_at": "2026-09-26T18:05:25.607335+00:00"
+ },
+ "Zscaler": {
+  "ats": "greenhouse",
+  "slug": "zscaler"
+ },
+ "Zupee": {
+  "miss_at": "2026-09-26T18:05:25.851528+00:00"
+ },
+ "apna": {
+  "miss_at": "2026-09-26T18:05:29.722327+00:00"
+ },
+ "bunq": {
+  "ats": "recruitee",
+  "slug": "bunq"
+ },
+ "slice": {
+  "miss_at": "2026-09-26T18:05:19.055908+00:00"
+ },
+ "smallcase": {
+  "miss_at": "2026-09-26T18:05:18.051203+00:00"
+ }
+}

@@ -1,0 +1,29 @@
+name: job-alerts
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 min (GitHub may delay a few minutes)
+  workflow_dispatch:          # lets you run it manually from the Actions tab
+permissions:
+  contents: write             # needed to save seen.json back to the repo
+concurrency: job-alerts
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python jobbot.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_CHAT_ID_INTL: ${{ secrets.TELEGRAM_CHAT_ID_INTL }}
+      - name: Save seen jobs
+        run: |
+          git config user.name "jobbot"
+          git config user.email "jobbot@users.noreply.github.com"
+          git add seen.json resolved.json
+          git diff --cached --quiet || (git commit -m "update seen jobs" && git push)

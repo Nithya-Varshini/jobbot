@@ -1,0 +1,1791 @@
+{
+ "min_lpa": 18,
+ "max_years_asked": 3,
+ "threshold": 45,
+ "first_run_digest": 10,
+ "max_alerts_per_run": 15,
+ "search_queries": [
+  "flutter",
+  "mobile developer",
+  "android",
+  "ios",
+  "software engineer"
+ ],
+ "title_rules": [
+  {
+   "label": "Flutter",
+   "regex": "flutter",
+   "points": 45
+  },
+  {
+   "label": "Mobile",
+   "regex": "\\b(mobile|android|ios|app developer|app engineer|react native)\\b",
+   "points": 35
+  },
+  {
+   "label": "Backend",
+   "regex": "\\b(backend|back-end|back end)\\b",
+   "points": 15,
+   "threshold": 30
+  },
+  {
+   "label": "SDE",
+   "regex": "\\b(software (development |dev )?engineer|sde|software developer|member of technical staff|mts)\\b",
+   "points": 15
+  }
+ ],
+ "title_exclude_regex": "\\b(senior|sr\\.?|staff|principal|lead|manager|architect|director|head|vp|intern|internship|sdet|qa|test|designer|iii|iv|3|4|sde[- ]?3)\\b",
+ "locations_allow": [
+  "india",
+  "bengaluru",
+  "bangalore",
+  "chennai",
+  "hyderabad",
+  "pune",
+  "mumbai",
+  "gurgaon",
+  "gurugram",
+  "noida",
+  "delhi",
+  "coimbatore"
+ ],
+ "locations_block_regex": "\\b(us|usa|united states|canada|uk|united kingdom|europe|emea|americas|latam|germany|singapore|australia)\\b",
+ "skills": {
+  "flutter": 15,
+  "dart": 12,
+  "bloc": 8,
+  "mvvm": 5,
+  "clean architecture": 4,
+  "state management": 4,
+  "riverpod": 2,
+  "firebase": 6,
+  "crashlytics": 3,
+  "remote config": 2,
+  "push notification": 3,
+  "push notifications": 3,
+  "deep link": 3,
+  "deep linking": 3,
+  "rest api": 3,
+  "dio": 4,
+  "hive": 4,
+  "objectbox": 3,
+  "offline": 4,
+  "caching": 3,
+  "codemagic": 3,
+  "ci/cd": 3,
+  "gorouter": 3,
+  "go_router": 3,
+  "mobile": 5,
+  "android": 4,
+  "ios": 4,
+  "cross-platform": 4,
+  "play store": 2,
+  "app store": 2,
+  "oauth": 2,
+  "analytics": 2,
+  "express": 3,
+  "node.js": 3,
+  "restful": 3,
+  "rest apis": 3
+ },
+ "companies": [
+  {
+   "name": "PhonePe",
+   "ats": "auto",
+   "slugs": [
+    "phonepe"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Razorpay",
+   "ats": "auto",
+   "slugs": [
+    "razorpaysoftwareprivatelimited",
+    "razorpay"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "CRED",
+   "ats": "auto",
+   "slugs": [
+    "cred",
+    "dreamplug"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Groww",
+   "ats": "auto",
+   "slugs": [
+    "groww",
+    "nextbillion"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Zerodha",
+   "ats": "auto",
+   "slugs": [
+    "zerodha"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Jupiter",
+   "ats": "auto",
+   "slugs": [
+    "jupiter",
+    "jupitermoney",
+    "amica"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Fi Money",
+   "ats": "auto",
+   "slugs": [
+    "epifi",
+    "fi"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "slice",
+   "ats": "auto",
+   "slugs": [
+    "sliceit",
+    "slice"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Jar",
+   "ats": "auto",
+   "slugs": [
+    "jar",
+    "jarapp",
+    "changejarapp"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Navi",
+   "ats": "auto",
+   "slugs": [
+    "navi",
+    "navitechnologies"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "smallcase",
+   "ats": "auto",
+   "slugs": [
+    "smallcase"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "INDmoney",
+   "ats": "auto",
+   "slugs": [
+    "indmoney",
+    "finzoom"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Juspay",
+   "ats": "auto",
+   "slugs": [
+    "juspay"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Setu",
+   "ats": "auto",
+   "slugs": [
+    "setu"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Zeta",
+   "ats": "auto",
+   "slugs": [
+    "zeta",
+    "zetasuite"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "OneCard",
+   "ats": "auto",
+   "slugs": [
+    "onecard",
+    "fplabs",
+    "fptechnologies"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Uni Cards",
+   "ats": "auto",
+   "slugs": [
+    "uni",
+    "unicards"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Paytm",
+   "ats": "auto",
+   "slugs": [
+    "paytm"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Cashfree",
+   "ats": "auto",
+   "slugs": [
+    "cashfree",
+    "cashfreepayments"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Scapia",
+   "ats": "auto",
+   "slugs": [
+    "scapia"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Kiwi",
+   "ats": "auto",
+   "slugs": [
+    "kiwi",
+    "gokiwi"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "FamPay",
+   "ats": "auto",
+   "slugs": [
+    "fampay",
+    "trinkerr"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Dezerv",
+   "ats": "auto",
+   "slugs": [
+    "dezerv"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Stable Money",
+   "ats": "auto",
+   "slugs": [
+    "stablemoney"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Acko",
+   "ats": "auto",
+   "slugs": [
+    "acko",
+    "ackotech"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Plum",
+   "ats": "auto",
+   "slugs": [
+    "plum",
+    "plumhq"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "PolicyBazaar",
+   "ats": "auto",
+   "slugs": [
+    "policybazaar",
+    "pbfintech"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "M2P Fintech",
+   "ats": "auto",
+   "slugs": [
+    "m2pfintech",
+    "m2p"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Khatabook",
+   "ats": "auto",
+   "slugs": [
+    "khatabook"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "OkCredit",
+   "ats": "auto",
+   "slugs": [
+    "okcredit"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Mobikwik",
+   "ats": "auto",
+   "slugs": [
+    "mobikwik"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Spenny",
+   "ats": "auto",
+   "slugs": [
+    "spenny"
+   ],
+   "category": "Fintech"
+  },
+  {
+   "name": "Swiggy",
+   "ats": "auto",
+   "slugs": [
+    "swiggy",
+    "bundltechnologies"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Zomato / Blinkit",
+   "ats": "auto",
+   "slugs": [
+    "zomato",
+    "eternal",
+    "blinkit"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Zepto",
+   "ats": "auto",
+   "slugs": [
+    "zepto",
+    "zeptonow",
+    "kiranakart"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Meesho",
+   "ats": "auto",
+   "slugs": [
+    "meesho"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Urban Company",
+   "ats": "auto",
+   "slugs": [
+    "urbancompany",
+    "urbanclap"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Rapido",
+   "ats": "auto",
+   "slugs": [
+    "rapido",
+    "roppen"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "ShareChat / Moj",
+   "ats": "auto",
+   "slugs": [
+    "sharechat",
+    "mohallatech"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Dream11",
+   "ats": "auto",
+   "slugs": [
+    "dreamsports",
+    "dream11"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Games24x7",
+   "ats": "auto",
+   "slugs": [
+    "games24x7"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "MPL",
+   "ats": "auto",
+   "slugs": [
+    "mpl",
+    "mobilepremierleague",
+    "galactus"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Zupee",
+   "ats": "auto",
+   "slugs": [
+    "zupee"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "WinZO",
+   "ats": "auto",
+   "slugs": [
+    "winzo"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Pocket FM",
+   "ats": "auto",
+   "slugs": [
+    "pocketfm"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Kuku FM",
+   "ats": "auto",
+   "slugs": [
+    "kukufm",
+    "kuku"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Spinny",
+   "ats": "auto",
+   "slugs": [
+    "spinny"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Cars24",
+   "ats": "auto",
+   "slugs": [
+    "cars24"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Porter",
+   "ats": "auto",
+   "slugs": [
+    "porter",
+    "theporter",
+    "smartshift"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Licious",
+   "ats": "auto",
+   "slugs": [
+    "licious"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Cult.fit",
+   "ats": "auto",
+   "slugs": [
+    "curefit",
+    "cultfit"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Ultrahuman",
+   "ats": "auto",
+   "slugs": [
+    "ultrahuman"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Headout",
+   "ats": "auto",
+   "slugs": [
+    "headout"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Tata 1mg",
+   "ats": "auto",
+   "slugs": [
+    "1mg",
+    "tata1mg"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Nykaa",
+   "ats": "auto",
+   "slugs": [
+    "nykaa"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Lenskart",
+   "ats": "auto",
+   "slugs": [
+    "lenskart"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "apna",
+   "ats": "auto",
+   "slugs": [
+    "apna",
+    "apnaco",
+    "apnatime"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Eloelo",
+   "ats": "auto",
+   "slugs": [
+    "eloelo"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Classplus",
+   "ats": "auto",
+   "slugs": [
+    "classplus"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "PhysicsWallah",
+   "ats": "auto",
+   "slugs": [
+    "physicswallah",
+    "pw"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Unacademy",
+   "ats": "auto",
+   "slugs": [
+    "unacademy",
+    "sortinghat"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Glance",
+   "ats": "auto",
+   "slugs": [
+    "glance"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "InMobi",
+   "ats": "auto",
+   "slugs": [
+    "inmobi"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "JioHotstar",
+   "ats": "auto",
+   "slugs": [
+    "hotstar",
+    "jiostar",
+    "novi"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "BookMyShow",
+   "ats": "auto",
+   "slugs": [
+    "bookmyshow",
+    "bigtree"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "MakeMyTrip",
+   "ats": "auto",
+   "slugs": [
+    "makemytrip"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Ixigo",
+   "ats": "auto",
+   "slugs": [
+    "ixigo"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Myntra",
+   "ats": "auto",
+   "slugs": [
+    "myntra"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Airtel Digital",
+   "ats": "auto",
+   "slugs": [
+    "airtel"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Snitch",
+   "ats": "auto",
+   "slugs": [
+    "snitch"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Seekho",
+   "ats": "auto",
+   "slugs": [
+    "seekho"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Stage OTT",
+   "ats": "auto",
+   "slugs": [
+    "stage",
+    "stageott"
+   ],
+   "category": "Consumer / Gaming"
+  },
+  {
+   "name": "Postman",
+   "ats": "auto",
+   "slugs": [
+    "postman"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "BrowserStack",
+   "ats": "auto",
+   "slugs": [
+    "browserstack"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Chargebee",
+   "ats": "auto",
+   "slugs": [
+    "chargebee"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Mindtickle",
+   "ats": "auto",
+   "slugs": [
+    "mindtickle"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Hasura",
+   "ats": "auto",
+   "slugs": [
+    "hasura"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Atlan",
+   "ats": "auto",
+   "slugs": [
+    "atlan"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Innovaccer",
+   "ats": "auto",
+   "slugs": [
+    "innovaccer"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Darwinbox",
+   "ats": "auto",
+   "slugs": [
+    "darwinbox"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "LeadSquared",
+   "ats": "auto",
+   "slugs": [
+    "leadsquared"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Whatfix",
+   "ats": "auto",
+   "slugs": [
+    "whatfix"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "MoEngage",
+   "ats": "auto",
+   "slugs": [
+    "moengage"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "CleverTap",
+   "ats": "auto",
+   "slugs": [
+    "clevertap"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "WebEngage",
+   "ats": "auto",
+   "slugs": [
+    "webengage"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Zluri",
+   "ats": "auto",
+   "slugs": [
+    "zluri"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Rocketlane",
+   "ats": "auto",
+   "slugs": [
+    "rocketlane"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Tekion",
+   "ats": "auto",
+   "slugs": [
+    "tekion"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Harness",
+   "ats": "auto",
+   "slugs": [
+    "harnessinc",
+    "harness"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Druva",
+   "ats": "auto",
+   "slugs": [
+    "druva"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Acceldata",
+   "ats": "auto",
+   "slugs": [
+    "acceldata"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Drivetrain",
+   "ats": "auto",
+   "slugs": [
+    "drivetrain"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Sarvam AI",
+   "ats": "auto",
+   "slugs": [
+    "sarvam",
+    "sarvamai"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Plivo",
+   "ats": "auto",
+   "slugs": [
+    "plivo"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Exotel",
+   "ats": "auto",
+   "slugs": [
+    "exotel"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Gupshup",
+   "ats": "auto",
+   "slugs": [
+    "gupshup"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Yellow.ai",
+   "ats": "auto",
+   "slugs": [
+    "yellowai",
+    "yellowmessenger"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Observe.AI",
+   "ats": "auto",
+   "slugs": [
+    "observeai"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Uniphore",
+   "ats": "auto",
+   "slugs": [
+    "uniphore"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Composio",
+   "ats": "auto",
+   "slugs": [
+    "composio"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Highlevel",
+   "ats": "auto",
+   "slugs": [
+    "highlevel",
+    "gohighlevel"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Sprinto",
+   "ats": "auto",
+   "slugs": [
+    "sprinto"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Hevo Data",
+   "ats": "auto",
+   "slugs": [
+    "hevodata",
+    "hevo"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "SigNoz",
+   "ats": "auto",
+   "slugs": [
+    "signoz"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Appsmith",
+   "ats": "auto",
+   "slugs": [
+    "appsmith"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Freshworks",
+   "ats": "auto",
+   "slugs": [
+    "freshworks"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Kissflow",
+   "ats": "auto",
+   "slugs": [
+    "kissflow"
+   ],
+   "category": "SaaS / AI / Dev tools"
+  },
+  {
+   "name": "Stripe",
+   "ats": "auto",
+   "slugs": [
+    "stripe"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Airbnb",
+   "ats": "auto",
+   "slugs": [
+    "airbnb"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Coinbase",
+   "ats": "auto",
+   "slugs": [
+    "coinbase"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Twilio",
+   "ats": "auto",
+   "slugs": [
+    "twilio"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Databricks",
+   "ats": "auto",
+   "slugs": [
+    "databricks"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Rubrik",
+   "ats": "auto",
+   "slugs": [
+    "rubrik"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Cloudflare",
+   "ats": "auto",
+   "slugs": [
+    "cloudflare"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Okta",
+   "ats": "auto",
+   "slugs": [
+    "okta"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Wise",
+   "ats": "auto",
+   "slugs": [
+    "transferwise",
+    "wise"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Grab",
+   "ats": "auto",
+   "slugs": [
+    "grab"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Gojek",
+   "ats": "auto",
+   "slugs": [
+    "gojek",
+    "gotogroup"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Agoda",
+   "ats": "auto",
+   "slugs": [
+    "agoda"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Visa",
+   "ats": "auto",
+   "slugs": [
+    "Visa",
+    "visa"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Atlassian",
+   "ats": "auto",
+   "slugs": [
+    "atlassian"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "DoorDash",
+   "ats": "auto",
+   "slugs": [
+    "doordashusa",
+    "doordash"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Rippling",
+   "ats": "auto",
+   "slugs": [
+    "rippling"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Zscaler",
+   "ats": "auto",
+   "slugs": [
+    "zscaler"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Confluent",
+   "ats": "auto",
+   "slugs": [
+    "confluent"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Nutanix",
+   "ats": "auto",
+   "slugs": [
+    "nutanix"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Sprinklr",
+   "ats": "auto",
+   "slugs": [
+    "sprinklr"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "ThoughtSpot",
+   "ats": "auto",
+   "slugs": [
+    "thoughtspot"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Delhivery",
+   "ats": "auto",
+   "slugs": [
+    "delhivery"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Media.net",
+   "ats": "auto",
+   "slugs": [
+    "medianet"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "DE Shaw",
+   "ats": "auto",
+   "slugs": [
+    "deshaw"
+   ],
+   "category": "Global product co.",
+   "any_location": true
+  },
+  {
+   "name": "Amazon",
+   "ats": "amazon",
+   "category": "Global product co."
+  },
+  {
+   "name": "Walmart Global Tech",
+   "ats": "workday",
+   "host": "walmart.wd5.myworkdayjobs.com",
+   "tenant": "walmart",
+   "site": "WalmartExternal",
+   "category": "Global product co."
+  },
+  {
+   "name": "Salesforce",
+   "ats": "workday",
+   "host": "salesforce.wd12.myworkdayjobs.com",
+   "tenant": "salesforce",
+   "site": "External_Career_Site",
+   "category": "Global product co."
+  },
+  {
+   "name": "Adobe",
+   "ats": "workday",
+   "host": "adobe.wd5.myworkdayjobs.com",
+   "tenant": "adobe",
+   "site": "external_experienced",
+   "category": "Global product co."
+  },
+  {
+   "name": "PayPal",
+   "ats": "workday",
+   "host": "paypal.wd1.myworkdayjobs.com",
+   "tenant": "paypal",
+   "site": "jobs",
+   "category": "Global product co."
+  },
+  {
+   "name": "Target",
+   "ats": "workday",
+   "host": "target.wd5.myworkdayjobs.com",
+   "tenant": "target",
+   "site": "targetcareers",
+   "category": "Global product co."
+  },
+  {
+   "name": "Adyen",
+   "ats": "auto",
+   "slugs": [
+    "adyen"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Spotify",
+   "ats": "auto",
+   "slugs": [
+    "spotify"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Delivery Hero",
+   "ats": "auto",
+   "slugs": [
+    "DeliveryHero",
+    "deliveryhero"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "N26",
+   "ats": "auto",
+   "slugs": [
+    "n26"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "GetYourGuide",
+   "ats": "auto",
+   "slugs": [
+    "getyourguide"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "HelloFresh",
+   "ats": "auto",
+   "slugs": [
+    "hellofresh"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "SumUp",
+   "ats": "auto",
+   "slugs": [
+    "sumup"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Mollie",
+   "ats": "auto",
+   "slugs": [
+    "mollie"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Picnic",
+   "ats": "auto",
+   "slugs": [
+    "picnictechnologies",
+    "picnic"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "bunq",
+   "ats": "auto",
+   "slugs": [
+    "bunq"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Backbase",
+   "ats": "auto",
+   "slugs": [
+    "backbase"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Mambu",
+   "ats": "auto",
+   "slugs": [
+    "mambu"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Trade Republic",
+   "ats": "auto",
+   "slugs": [
+    "traderepublic",
+    "traderepublicbank"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Taxfix",
+   "ats": "auto",
+   "slugs": [
+    "taxfix"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Contentful",
+   "ats": "auto",
+   "slugs": [
+    "contentful"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Celonis",
+   "ats": "auto",
+   "slugs": [
+    "celonis"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Miro",
+   "ats": "auto",
+   "slugs": [
+    "realtimeboardglobal",
+    "miro"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Monzo",
+   "ats": "auto",
+   "slugs": [
+    "monzo"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Revolut",
+   "ats": "auto",
+   "slugs": [
+    "revolut"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Cleo AI",
+   "ats": "auto",
+   "slugs": [
+    "cleoai"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Deliveroo",
+   "ats": "auto",
+   "slugs": [
+    "deliveroo"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Flo Health",
+   "ats": "auto",
+   "slugs": [
+    "flohealth"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Wolt",
+   "ats": "auto",
+   "slugs": [
+    "wolt"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Klarna",
+   "ats": "auto",
+   "slugs": [
+    "klarna"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Zalando",
+   "ats": "auto",
+   "slugs": [
+    "zalando"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Babbel",
+   "ats": "auto",
+   "slugs": [
+    "babbel"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Blinkist",
+   "ats": "auto",
+   "slugs": [
+    "blinkist"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Bitpanda",
+   "ats": "auto",
+   "slugs": [
+    "bitpanda"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Vinted",
+   "ats": "auto",
+   "slugs": [
+    "vinted"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Bending Spoons",
+   "ats": "auto",
+   "slugs": [
+    "bendingspoons"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Personio",
+   "ats": "auto",
+   "slugs": [
+    "personio"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Tier / Dott",
+   "ats": "auto",
+   "slugs": [
+    "ridedott",
+    "tier"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Careem",
+   "ats": "auto",
+   "slugs": [
+    "careem"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Talabat",
+   "ats": "auto",
+   "slugs": [
+    "talabat"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Tabby",
+   "ats": "auto",
+   "slugs": [
+    "tabby"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Tamara",
+   "ats": "auto",
+   "slugs": [
+    "tamara"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Kitopi",
+   "ats": "auto",
+   "slugs": [
+    "kitopi"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Property Finder",
+   "ats": "auto",
+   "slugs": [
+    "propertyfinder"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Mercari",
+   "ats": "auto",
+   "slugs": [
+    "mercari"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "PayPay",
+   "ats": "auto",
+   "slugs": [
+    "paypay"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "SmartNews",
+   "ats": "auto",
+   "slugs": [
+    "smartnews"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Money Forward",
+   "ats": "auto",
+   "slugs": [
+    "moneyforward"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Rakuten",
+   "ats": "auto",
+   "slugs": [
+    "rakuten"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Canva",
+   "ats": "auto",
+   "slugs": [
+    "canva"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Airwallex",
+   "ats": "auto",
+   "slugs": [
+    "airwallex"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Shopee / Sea",
+   "ats": "auto",
+   "slugs": [
+    "sea",
+    "shopee"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Xendit",
+   "ats": "auto",
+   "slugs": [
+    "xendit"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Nium",
+   "ats": "auto",
+   "slugs": [
+    "nium"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Carousell",
+   "ats": "auto",
+   "slugs": [
+    "carousell"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Nubank",
+   "ats": "auto",
+   "slugs": [
+    "nubank"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Grammarly",
+   "ats": "auto",
+   "slugs": [
+    "grammarly"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "GitLab",
+   "ats": "auto",
+   "slugs": [
+    "gitlab"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Deel",
+   "ats": "auto",
+   "slugs": [
+    "deel"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Very Good Ventures",
+   "ats": "auto",
+   "slugs": [
+    "verygoodventures",
+    "vgv"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Doist",
+   "ats": "auto",
+   "slugs": [
+    "doist"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  },
+  {
+   "name": "Toggl",
+   "ats": "auto",
+   "slugs": [
+    "toggl"
+   ],
+   "category": "International (sponsors / relocates)",
+   "any_location": true
+  }
+ ],
+ "international": {
+  "enabled": true,
+  "max_years_asked": 4,
+  "sponsor_regex": "visa sponsorship|sponsor(ing|ship)? (your |a |the )?(work )?(visa|permit)|(we|will|can|happy to|able to) (fully )?sponsor|visa (support|assistance|and relocation|& relocation)|relocation (package|support|assistance|bonus|allowance|budget)|(we|will) (help|support) (you )?(with )?relocat|relocate you|work permit (support|assistance)|blue card|skilled worker visa|critical skills|open to (international|global) (candidates|applicants|talent)",
+  "no_sponsor_regex": "(unable|not able|cannot|can't|can not|won't|will not|do not|don't|does not|doesn't|are not able|is not able)\\s+(to\\s+)?(currently\\s+)?(provide|offer|support|consider)?\\s*(any\\s+)?(visa\\s+|immigration\\s+|work\\s+)?(sponsor|sponsorship|relocation)|without (the need for )?(visa |current or future )?sponsorship|no (visa |immigration )?sponsorship|sponsorship (is )?not (available|offered|provided)|must (already )?(be|have) (legally )?(authori[sz]ed|eligible|the right|permission|a valid work)|(existing|valid|current) right to work|require (a )?work permit|u\\.?s\\.? citizen|security clearance|not offering relocation|no relocation",
+  "amazon_countries": [
+   "Germany",
+   "Ireland",
+   "Luxembourg",
+   "Netherlands",
+   "Japan",
+   "Singapore",
+   "United Arab Emirates"
+  ]
+ }
+}

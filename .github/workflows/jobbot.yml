@@ -1,7 +1,7 @@
 name: job-alerts
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 min (GitHub may delay a few minutes)
+    - cron: "0 */2 * * *"   # every 2 hours (private repo free-minutes budget)
   workflow_dispatch:          # lets you run it manually from the Actions tab
 permissions:
   contents: write             # needed to save seen.json back to the repo

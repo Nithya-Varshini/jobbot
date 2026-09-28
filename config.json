@@ -9,7 +9,10 @@
   "mobile developer",
   "android",
   "ios",
-  "software engineer"
+  "software engineer",
+  "backend engineer",
+  "java developer",
+  "python developer"
  ],
  "title_rules": [
   {
@@ -31,7 +34,8 @@
   {
    "label": "SDE",
    "regex": "\\b(software (development |dev )?engineer|sde|software developer|member of technical staff|mts)\\b",
-   "points": 15
+   "points": 15,
+   "threshold": 30
   }
  ],
  "title_exclude_regex": "\\b(senior|sr\\.?|staff|principal|lead|manager|architect|director|head|vp|intern|internship|sdet|qa|test|designer|iii|iv|3|4|sde[- ]?3)\\b",
@@ -86,7 +90,30 @@
   "express": 3,
   "node.js": 3,
   "restful": 3,
-  "rest apis": 3
+  "rest apis": 3,
+  "java": 6,
+  "spring": 6,
+  "spring boot": 6,
+  "hibernate": 3,
+  "python": 6,
+  "django": 5,
+  "flask": 4,
+  "fastapi": 4,
+  "sql": 4,
+  "postgres": 4,
+  "postgresql": 4,
+  "mysql": 3,
+  "mongodb": 3,
+  "microservices": 5,
+  "docker": 4,
+  "kubernetes": 4,
+  "aws": 4,
+  "gcp": 3,
+  "azure": 3,
+  "kafka": 4,
+  "system design": 5,
+  "data structures": 3,
+  "algorithms": 3
  },
  "companies": [
   {

@@ -451,26 +451,22 @@ def gather(dry):
 
 def flutter_digest():
     """One bundled Telegram message listing every currently open role at
-    your Flutter-stack companies (CRED, Grab, Nubank, Toyota Connected...),
-    regardless of whether it was already alerted before."""
+    your Flutter-stack companies (CRED, Grab, Nubank, Toyota Connected...).
+    Lists any title that passed the Flutter/Mobile/Backend/SDE title filter —
+    skips the stricter resume-score/visa-text/experience checks from evaluate(),
+    since the point here is visibility into everything open, not a strict match."""
     _, results = gather(dry=True)
-    matches = []
-    for _, new, _ in results:
-        for j in new:
-            if not j.get("flutter_stack"):
-                continue
-            m = evaluate(j)
-            if m:
-                matches.append(m)
-    matches.sort(key=lambda m: m["score"], reverse=True)
+    jobs = [j for _, new, _ in results for j in new if j.get("flutter_stack")]
+    jobs.sort(key=lambda j: j["company"])
 
-    if not matches:
-        tg_send("💙 <b>FLUTTER STACK</b> — no open roles matching your resume right now.")
+    if not jobs:
+        tg_send("💙 <b>FLUTTER STACK</b> — no open roles right now at your tracked Flutter companies.")
         return
 
-    header = f"💙 <b>FLUTTER STACK</b> — {len(matches)} open role(s) at companies known for Flutter apps\n\n"
-    lines = [f"• <b>{html.escape(m['title'])}</b> — {html.escape(m['company'])} "
-             f"({m['score']}/100) <a href=\"{html.escape(m['url'])}\">apply</a>" for m in matches]
+    header = f"💙 <b>FLUTTER STACK</b> — {len(jobs)} open role(s) at companies known for Flutter apps\n\n"
+    lines = [f"• <b>{html.escape(j['title'])}</b> — {html.escape(j['company'])}\n"
+             f"  📍 {html.escape(j['location'][:80] or 'not listed')} · "
+             f"<a href=\"{html.escape(j['url'])}\">apply</a>" for j in jobs]
 
     chunk, size = [header], len(header)
     for line in lines:
@@ -481,7 +477,7 @@ def flutter_digest():
         size += len(line) + 1
     if chunk:
         tg_send("".join(chunk))
-    print(f"{len(matches)} Flutter-stack roles posted in group message")
+    print(f"{len(jobs)} Flutter-stack roles posted in group message")
 
 
 # ----------------------------------------------------------------- main

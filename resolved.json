@@ -25,6 +25,9 @@
   "ats": "ashby",
   "slug": "airwallex"
  },
+ "Alibaba Group": {
+  "miss_at": "2026-10-11T19:46:08.011184+00:00"
+ },
  "Appsmith": {
   "miss_at": "2026-10-10T23:18:39.793990+00:00"
  },
@@ -35,6 +38,9 @@
  "Atlassian": {
   "miss_at": "2026-10-10T23:18:41.357386+00:00"
  },
+ "BMW Group": {
+  "miss_at": "2026-10-11T19:46:07.939166+00:00"
+ },
  "Babbel": {
   "ats": "ashby",
   "slug": "babbel"
@@ -44,6 +50,10 @@
  },
  "Bending Spoons": {
   "miss_at": "2026-10-10T23:18:50.070103+00:00"
+ },
+ "Betterment": {
+  "ats": "greenhouse",
+  "slug": "betterment"
  },
  "Bitpanda": {
   "ats": "greenhouse",
@@ -433,6 +443,9 @@
   "ats": "greenhouse",
   "slug": "razorpaysoftwareprivatelimited"
  },
+ "Realtor.com": {
+  "miss_at": "2026-10-11T19:46:10.625505+00:00"
+ },
  "Revolut": {
   "miss_at": "2026-10-10T23:18:50.297805+00:00"
  },
@@ -469,11 +482,17 @@
   "ats": "ashby",
   "slug": "signoz"
  },
+ "Signify (Philips Hue)": {
+  "miss_at": "2026-10-11T19:46:07.975497+00:00"
+ },
  "SmartNews": {
   "miss_at": "2026-10-10T23:18:51.705667+00:00"
  },
  "Snitch": {
   "miss_at": "2026-10-10T23:18:38.092734+00:00"
+ },
+ "Sonos": {
+  "miss_at": "2026-10-11T19:46:09.386652+00:00"
  },
  "Spenny": {
   "miss_at": "2026-10-10T23:18:30.686697+00:00"
@@ -530,6 +549,9 @@
   "ats": "ashby",
   "slug": "tekion"
  },
+ "Tencent": {
+  "miss_at": "2026-10-11T19:46:09.350051+00:00"
+ },
  "ThoughtSpot": {
   "miss_at": "2026-10-10T23:18:42.691586+00:00"
  },
@@ -538,6 +560,10 @@
  },
  "Toggl": {
   "miss_at": "2026-10-10T23:18:53.204842+00:00"
+ },
+ "Toyota Connected": {
+  "ats": "greenhouse",
+  "slug": "toyotaconnected"
  },
  "Trade Republic": {
   "ats": "greenhouse",
@@ -629,6 +655,12 @@
  "bunq": {
   "ats": "recruitee",
   "slug": "bunq"
+ },
+ "eBay Motors Group": {
+  "miss_at": "2026-10-11T19:46:07.925381+00:00"
+ },
+ "iRobot": {
+  "miss_at": "2026-10-11T19:46:09.433988+00:00"
  },
  "slice": {
   "miss_at": "2026-10-10T23:18:26.659321+00:00"

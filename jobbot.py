@@ -423,9 +423,10 @@ def collect(c, cache, seen, dry):
         return [], [], f"{c['name']}: {ex}"
     still_open, new = [], []
     for j in jobs:
-        if not title_rule(j["title"]):
+        rule = title_rule(j["title"])
+        if not rule:
             continue
-        j["flutter_stack"] = c.get("flutter_stack", False)
+        j["flutter_stack"] = c.get("flutter_stack", False) and rule["label"] in ("Flutter", "Mobile")
         still_open.append(j["id"])
         if j["id"] in seen and not dry:
             continue

@@ -350,7 +350,10 @@ def fmt(m):
     else:
         pay = "not posted"
     head = {"india": "🟢", "remote": "🌍 <b>REMOTE</b> ·", "intl": "✈️ <b>ABROAD + VISA</b> ·"}[m["track"]]
-    lines = [f"{head} <b>{e(m['title'])}</b> — {e(m['company'])}",
+    lines = []
+    if m.get("flutter_stack"):
+        lines.append("💙 <b>FLUTTER STACK</b>")
+    lines += [f"{head} <b>{e(m['title'])}</b> — {e(m['company'])}",
              f"📍 {e(m['location'][:120] or 'not listed')}",
              f"🎯 Match {m['score']}/100 · {e(m['label'])} role",
              f"🧰 {e(', '.join(m['hits'][:10]) or '—')}",
@@ -422,6 +425,7 @@ def collect(c, cache, seen, dry):
     for j in jobs:
         if not title_rule(j["title"]):
             continue
+        j["flutter_stack"] = c.get("flutter_stack", False)
         still_open.append(j["id"])
         if j["id"] in seen and not dry:
             continue

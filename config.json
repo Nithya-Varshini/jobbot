@@ -140,7 +140,8 @@
     "cred",
     "dreamplug"
    ],
-   "category": "Fintech"
+   "category": "Fintech",
+   "flutter_stack": true
   },
   {
    "name": "Groww",
@@ -1112,7 +1113,8 @@
     "grab"
    ],
    "category": "Global product co.",
-   "any_location": true
+   "any_location": true,
+   "flutter_stack": true
   },
   {
    "name": "Gojek",
@@ -1742,7 +1744,8 @@
     "nubank"
    ],
    "category": "International (sponsors / relocates)",
-   "any_location": true
+   "any_location": true,
+   "flutter_stack": true
   },
   {
    "name": "Grammarly",
@@ -1798,6 +1801,86 @@
    ],
    "category": "International (sponsors / relocates)",
    "any_location": true
+  },
+  {
+   "name": "BMW Group",
+   "ats": "auto",
+   "slugs": ["bmwgroup", "bmw"],
+   "category": "Flutter Stack",
+   "any_location": true,
+   "flutter_stack": true
+  },
+  {
+   "name": "eBay Motors Group",
+   "ats": "auto",
+   "slugs": ["ebaymotorsgroup", "ebay"],
+   "category": "Flutter Stack",
+   "any_location": true,
+   "flutter_stack": true
+  },
+  {
+   "name": "Alibaba Group",
+   "ats": "auto",
+   "slugs": ["alibaba", "alibabagroup"],
+   "category": "Flutter Stack",
+   "any_location": true,
+   "flutter_stack": true
+  },
+  {
+   "name": "Signify (Philips Hue)",
+   "ats": "auto",
+   "slugs": ["signify", "philips"],
+   "category": "Flutter Stack",
+   "any_location": true,
+   "flutter_stack": true
+  },
+  {
+   "name": "Sonos",
+   "ats": "auto",
+   "slugs": ["sonos"],
+   "category": "Flutter Stack",
+   "any_location": true,
+   "flutter_stack": true
+  },
+  {
+   "name": "Toyota Connected",
+   "ats": "auto",
+   "slugs": ["toyotaconnected", "toyota"],
+   "category": "Flutter Stack",
+   "any_location": true,
+   "flutter_stack": true
+  },
+  {
+   "name": "Tencent",
+   "ats": "auto",
+   "slugs": ["tencent"],
+   "category": "Flutter Stack",
+   "any_location": true,
+   "flutter_stack": true
+  },
+  {
+   "name": "Realtor.com",
+   "ats": "auto",
+   "slugs": ["realtor", "move"],
+   "category": "Flutter Stack",
+   "any_location": true,
+   "flutter_stack": true
+  },
+  {
+   "name": "Betterment",
+   "ats": "auto",
+   "slugs": ["betterment"],
+   "category": "Flutter Stack",
+   "any_location": true,
+   "flutter_stack": true
+  },
+  {
+   "name": "iRobot",
+   "ats": "auto",
+   "slugs": ["irobot"],
+   "category": "Flutter Stack",
+   "any_location": true,
+   "flutter_stack": true
   }
  ],
  "international": {

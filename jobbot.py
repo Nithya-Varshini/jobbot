@@ -449,6 +449,41 @@ def gather(dry):
     return seen, results
 
 
+def flutter_digest():
+    """One bundled Telegram message listing every currently open role at
+    your Flutter-stack companies (CRED, Grab, Nubank, Toyota Connected...),
+    regardless of whether it was already alerted before."""
+    _, results = gather(dry=True)
+    matches = []
+    for _, new, _ in results:
+        for j in new:
+            if not j.get("flutter_stack"):
+                continue
+            m = evaluate(j)
+            if m:
+                matches.append(m)
+    matches.sort(key=lambda m: m["score"], reverse=True)
+
+    if not matches:
+        tg_send("💙 <b>FLUTTER STACK</b> — no open roles matching your resume right now.")
+        return
+
+    header = f"💙 <b>FLUTTER STACK</b> — {len(matches)} open role(s) at companies known for Flutter apps\n\n"
+    lines = [f"• <b>{html.escape(m['title'])}</b> — {html.escape(m['company'])} "
+             f"({m['score']}/100) <a href=\"{html.escape(m['url'])}\">apply</a>" for m in matches]
+
+    chunk, size = [header], len(header)
+    for line in lines:
+        if size + len(line) + 1 > 3800:
+            tg_send("".join(chunk))
+            chunk, size = [], 0
+        chunk.append(line + "\n")
+        size += len(line) + 1
+    if chunk:
+        tg_send("".join(chunk))
+    print(f"{len(matches)} Flutter-stack roles posted in group message")
+
+
 # ----------------------------------------------------------------- main
 def run(dry):
     first_run = not SEEN_FILE.exists()
@@ -516,10 +551,13 @@ if __name__ == "__main__":
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--check", action="store_true")
     ap.add_argument("--test", action="store_true")
+    ap.add_argument("--flutter-digest", action="store_true")
     a = ap.parse_args()
     if a.test:
         tg_send("✅ Job bot test message — Telegram is wired up.")
     elif a.check:
         check()
+    elif a.flutter_digest:
+        flutter_digest()
     else:
         run(a.dry_run)

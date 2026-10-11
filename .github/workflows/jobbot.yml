@@ -3,6 +3,10 @@ on:
   schedule:
     - cron: "0 */2 * * *"   # every 2 hours (private repo free-minutes budget)
   workflow_dispatch:          # lets you run it manually from the Actions tab
+    inputs:
+      mode:
+        description: "normal | flutter-digest"
+        default: "normal"
 permissions:
   contents: write             # needed to save seen.json back to the repo
 concurrency: job-alerts
@@ -16,7 +20,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: python jobbot.py
+      - run: python jobbot.py ${{ github.event.inputs.mode == 'flutter-digest' && '--flutter-digest' || '' }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

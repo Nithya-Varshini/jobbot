@@ -19,17 +19,38 @@
   "ats": "greenhouse",
   "slug": "airbnb"
  },
+ "Airtel Digital": {
+  "miss_at": "2026-10-12T15:36:21.882851+00:00"
+ },
  "Airwallex": {
   "ats": "ashby",
   "slug": "airwallex"
+ },
+ "Alibaba Group": {
+  "miss_at": "2026-10-12T15:37:17.047582+00:00"
+ },
+ "Appsmith": {
+  "miss_at": "2026-10-12T15:36:33.742722+00:00"
  },
  "Atlan": {
   "ats": "ashby",
   "slug": "atlan"
  },
+ "Atlassian": {
+  "miss_at": "2026-10-12T15:36:37.124833+00:00"
+ },
+ "BMW Group": {
+  "miss_at": "2026-10-12T15:37:17.035968+00:00"
+ },
  "Babbel": {
   "ats": "ashby",
   "slug": "babbel"
+ },
+ "Backbase": {
+  "miss_at": "2026-10-12T15:37:00.822387+00:00"
+ },
+ "Bending Spoons": {
+  "miss_at": "2026-10-12T15:36:57.881962+00:00"
  },
  "Betterment": {
   "ats": "greenhouse",
@@ -38,6 +59,12 @@
  "Bitpanda": {
   "ats": "greenhouse",
   "slug": "bitpanda"
+ },
+ "Blinkist": {
+  "miss_at": "2026-10-12T15:36:56.516197+00:00"
+ },
+ "BookMyShow": {
+  "miss_at": "2026-10-12T15:36:21.419951+00:00"
  },
  "CRED": {
   "ats": "lever",
@@ -51,6 +78,9 @@
   "ats": "greenhouse",
   "slug": "careem"
  },
+ "Carousell": {
+  "miss_at": "2026-10-12T15:37:08.529481+00:00"
+ },
  "Cars24": {
   "ats": "smartrecruiters",
   "slug": "cars24"
@@ -62,6 +92,12 @@
  "Celonis": {
   "ats": "greenhouse",
   "slug": "celonis"
+ },
+ "Chargebee": {
+  "miss_at": "2026-10-12T15:36:24.163588+00:00"
+ },
+ "Classplus": {
+  "miss_at": "2026-10-12T15:36:15.990498+00:00"
  },
  "Cleo AI": {
   "ats": "ashby",
@@ -91,9 +127,24 @@
   "ats": "greenhouse",
   "slug": "contentful"
  },
+ "Cult.fit": {
+  "miss_at": "2026-10-12T15:36:15.846095+00:00"
+ },
+ "DE Shaw": {
+  "miss_at": "2026-10-12T15:36:46.062611+00:00"
+ },
+ "Darwinbox": {
+  "miss_at": "2026-10-12T15:36:25.436581+00:00"
+ },
  "Databricks": {
   "ats": "greenhouse",
   "slug": "databricks"
+ },
+ "Deel": {
+  "miss_at": "2026-10-12T15:37:09.131131+00:00"
+ },
+ "Delhivery": {
+  "miss_at": "2026-10-12T15:36:41.449995+00:00"
  },
  "Deliveroo": {
   "ats": "greenhouse",
@@ -103,9 +154,18 @@
   "ats": "smartrecruiters",
   "slug": "DeliveryHero"
  },
+ "Dezerv": {
+  "miss_at": "2026-10-12T15:35:50.505305+00:00"
+ },
+ "Doist": {
+  "miss_at": "2026-10-12T15:37:10.630496+00:00"
+ },
  "DoorDash": {
   "ats": "greenhouse",
   "slug": "doordashusa"
+ },
+ "Dream11": {
+  "miss_at": "2026-10-12T15:36:06.249793+00:00"
  },
  "Drivetrain": {
   "ats": "lever",
@@ -118,6 +178,9 @@
  "Eloelo": {
   "ats": "keka",
   "slug": "eloelo"
+ },
+ "Exotel": {
+  "miss_at": "2026-10-12T15:36:30.728127+00:00"
  },
  "FamPay": {
   "ats": "lever",
@@ -135,6 +198,9 @@
   "ats": "smartrecruiters",
   "slug": "freshworks"
  },
+ "Games24x7": {
+  "miss_at": "2026-10-12T15:36:04.252566+00:00"
+ },
  "GetYourGuide": {
   "ats": "greenhouse",
   "slug": "getyourguide"
@@ -147,17 +213,29 @@
   "ats": "greenhouse",
   "slug": "glance"
  },
+ "Gojek": {
+  "miss_at": "2026-10-12T15:36:41.377559+00:00"
+ },
  "Grab": {
   "ats": "smartrecruiters",
   "slug": "grab"
+ },
+ "Grammarly": {
+  "miss_at": "2026-10-12T15:37:08.605900+00:00"
  },
  "Groww": {
   "ats": "greenhouse",
   "slug": "groww"
  },
+ "Gupshup": {
+  "miss_at": "2026-10-12T15:36:30.836451+00:00"
+ },
  "Harness": {
   "ats": "greenhouse",
   "slug": "harnessinc"
+ },
+ "Hasura": {
+  "miss_at": "2026-10-12T15:36:25.424451+00:00"
  },
  "Headout": {
   "ats": "greenhouse",
@@ -175,25 +253,71 @@
   "ats": "lever",
   "slug": "gohighlevel"
  },
+ "INDmoney": {
+  "miss_at": "2026-10-12T15:35:49.315203+00:00"
+ },
  "InMobi": {
   "ats": "greenhouse",
   "slug": "inmobi"
+ },
+ "Innovaccer": {
+  "miss_at": "2026-10-12T15:36:25.514602+00:00"
  },
  "Ixigo": {
   "ats": "smartrecruiters",
   "slug": "ixigo"
  },
+ "Jar": {
+  "miss_at": "2026-10-12T15:35:56.706516+00:00"
+ },
+ "JioHotstar": {
+  "miss_at": "2026-10-12T15:36:28.392508+00:00"
+ },
  "Jupiter": {
   "ats": "keka",
   "slug": "jupiter"
+ },
+ "Juspay": {
+  "miss_at": "2026-10-12T15:35:43.149061+00:00"
+ },
+ "Khatabook": {
+  "miss_at": "2026-10-12T15:35:54.681156+00:00"
+ },
+ "Kissflow": {
+  "ats": "zoho",
+  "slug": "kissflow"
+ },
+ "Kitopi": {
+  "miss_at": "2026-10-12T15:37:01.053440+00:00"
+ },
+ "Kiwi": {
+  "miss_at": "2026-10-12T15:35:52.981835+00:00"
  },
  "Kuku FM": {
   "ats": "keka",
   "slug": "kukufm"
  },
+ "LeadSquared": {
+  "miss_at": "2026-10-12T15:36:28.104910+00:00"
+ },
  "Lenskart": {
   "ats": "recruitee",
   "slug": "lenskartcareers"
+ },
+ "Licious": {
+  "miss_at": "2026-10-12T15:36:11.704543+00:00"
+ },
+ "M2P Fintech": {
+  "miss_at": "2026-10-12T15:35:58.480614+00:00"
+ },
+ "MPL": {
+  "miss_at": "2026-10-12T15:36:16.095738+00:00"
+ },
+ "MakeMyTrip": {
+  "miss_at": "2026-10-12T15:36:19.891943+00:00"
+ },
+ "Mambu": {
+  "miss_at": "2026-10-12T15:36:51.567516+00:00"
  },
  "Media.net": {
   "ats": "smartrecruiters",
@@ -203,6 +327,10 @@
   "ats": "lever",
   "slug": "meesho"
  },
+ "Mercari": {
+  "ats": "workable",
+  "slug": "mercari"
+ },
  "Mindtickle": {
   "ats": "lever",
   "slug": "mindtickle"
@@ -211,17 +339,33 @@
   "ats": "greenhouse",
   "slug": "realtimeboardglobal"
  },
+ "MoEngage": {
+  "miss_at": "2026-10-12T15:36:28.832352+00:00"
+ },
+ "Mobikwik": {
+  "miss_at": "2026-10-12T15:35:54.459605+00:00"
+ },
  "Mollie": {
   "ats": "ashby",
   "slug": "mollie"
+ },
+ "Money Forward": {
+  "ats": "zoho",
+  "slug": "moneyforward"
  },
  "Monzo": {
   "ats": "greenhouse",
   "slug": "monzo"
  },
+ "Myntra": {
+  "miss_at": "2026-10-12T15:36:19.983552+00:00"
+ },
  "N26": {
   "ats": "greenhouse",
   "slug": "n26"
+ },
+ "Navi": {
+  "miss_at": "2026-10-12T15:35:46.869997+00:00"
  },
  "Nium": {
   "ats": "lever",
@@ -231,13 +375,25 @@
   "ats": "ashby",
   "slug": "nubank"
  },
+ "Nutanix": {
+  "miss_at": "2026-10-12T15:36:38.546816+00:00"
+ },
+ "Nykaa": {
+  "miss_at": "2026-10-12T15:36:13.612662+00:00"
+ },
  "Observe.AI": {
   "ats": "greenhouse",
   "slug": "observeai"
  },
+ "OkCredit": {
+  "miss_at": "2026-10-12T15:35:54.629646+00:00"
+ },
  "Okta": {
   "ats": "greenhouse",
   "slug": "okta"
+ },
+ "OneCard": {
+  "miss_at": "2026-10-12T15:35:54.907780+00:00"
  },
  "PayPay": {
   "ats": "greenhouse",
@@ -251,9 +407,19 @@
   "ats": "recruitee",
   "slug": "personio"
  },
+ "PhonePe": {
+  "miss_at": "2026-10-12T15:35:45.308430+00:00"
+ },
+ "PhysicsWallah": {
+  "miss_at": "2026-10-12T15:36:20.044673+00:00"
+ },
  "Picnic": {
   "ats": "smartrecruiters",
   "slug": "picnic"
+ },
+ "Plivo": {
+  "ats": "zoho",
+  "slug": "plivo"
  },
  "Plum": {
   "ats": "kula",
@@ -263,9 +429,36 @@
   "ats": "lever",
   "slug": "pocketfm"
  },
+ "PolicyBazaar": {
+  "miss_at": "2026-10-12T15:35:58.529859+00:00"
+ },
+ "Porter": {
+  "miss_at": "2026-10-12T15:36:20.956755+00:00"
+ },
+ "Postman": {
+  "miss_at": "2026-10-12T15:36:23.959060+00:00"
+ },
+ "Property Finder": {
+  "miss_at": "2026-10-12T15:37:02.858190+00:00"
+ },
+ "Rakuten": {
+  "miss_at": "2026-10-12T15:37:04.631357+00:00"
+ },
+ "Rapido": {
+  "miss_at": "2026-10-12T15:36:04.467023+00:00"
+ },
  "Razorpay": {
   "ats": "greenhouse",
   "slug": "razorpaysoftwareprivatelimited"
+ },
+ "Realtor.com": {
+  "miss_at": "2026-10-12T15:37:22.283407+00:00"
+ },
+ "Revolut": {
+  "miss_at": "2026-10-12T15:36:56.375025+00:00"
+ },
+ "Rippling": {
+  "miss_at": "2026-10-12T15:36:37.207742+00:00"
  },
  "Rocketlane": {
   "ats": "kula",
@@ -279,17 +472,51 @@
   "ats": "ashby",
   "slug": "sarvam"
  },
+ "Scapia": {
+  "miss_at": "2026-10-12T15:35:49.327041+00:00"
+ },
+ "Seekho": {
+  "miss_at": "2026-10-12T15:36:25.667204+00:00"
+ },
+ "Setu": {
+  "miss_at": "2026-10-12T15:35:43.572532+00:00"
+ },
+ "ShareChat / Moj": {
+  "miss_at": "2026-10-12T15:36:05.797367+00:00"
+ },
+ "Shopee / Sea": {
+  "miss_at": "2026-10-12T15:37:07.377671+00:00"
+ },
  "SigNoz": {
   "ats": "ashby",
   "slug": "signoz"
+ },
+ "SmartNews": {
+  "ats": "workable",
+  "slug": "smartnews"
  },
  "Snitch": {
   "ats": "keka",
   "slug": "snitch"
  },
+ "Sonos": {
+  "miss_at": "2026-10-12T15:37:14.556400+00:00"
+ },
+ "Spenny": {
+  "miss_at": "2026-10-12T15:35:57.112423+00:00"
+ },
+ "Spinny": {
+  "miss_at": "2026-10-12T15:36:10.147104+00:00"
+ },
  "Spotify": {
   "ats": "lever",
   "slug": "spotify"
+ },
+ "Sprinto": {
+  "miss_at": "2026-10-12T15:36:33.582320+00:00"
+ },
+ "Stable Money": {
+  "miss_at": "2026-10-12T15:35:50.749293+00:00"
  },
  "Stage OTT": {
   "ats": "greenhouse",
@@ -307,13 +534,38 @@
   "ats": "smartrecruiters",
   "slug": "swiggy"
  },
+ "Tabby": {
+  "ats": "zoho",
+  "slug": "tabby"
+ },
+ "Talabat": {
+  "miss_at": "2026-10-12T15:37:00.872559+00:00"
+ },
  "Tamara": {
   "ats": "greenhouse",
   "slug": "tamara"
  },
+ "Tata 1mg": {
+  "miss_at": "2026-10-12T15:36:17.393820+00:00"
+ },
+ "Taxfix": {
+  "miss_at": "2026-10-12T15:36:54.086277+00:00"
+ },
  "Tekion": {
   "ats": "ashby",
   "slug": "tekion"
+ },
+ "Tencent": {
+  "miss_at": "2026-10-12T15:37:14.882388+00:00"
+ },
+ "ThoughtSpot": {
+  "miss_at": "2026-10-12T15:36:38.474918+00:00"
+ },
+ "Tier / Dott": {
+  "miss_at": "2026-10-12T15:37:04.831540+00:00"
+ },
+ "Toggl": {
+  "miss_at": "2026-10-12T15:37:10.834683+00:00"
  },
  "Toyota Connected": {
   "ats": "greenhouse",
@@ -331,9 +583,27 @@
   "ats": "smartrecruiters",
   "slug": "unacademy"
  },
+ "Uni Cards": {
+  "miss_at": "2026-10-12T15:35:50.791986+00:00"
+ },
+ "Urban Company": {
+  "miss_at": "2026-10-12T15:36:03.534559+00:00"
+ },
+ "Very Good Ventures": {
+  "miss_at": "2026-10-12T15:37:14.682674+00:00"
+ },
+ "Vinted": {
+  "miss_at": "2026-10-12T15:37:05.831998+00:00"
+ },
+ "WebEngage": {
+  "miss_at": "2026-10-12T15:36:29.247485+00:00"
+ },
  "Whatfix": {
   "ats": "smartrecruiters",
   "slug": "whatfix"
+ },
+ "WinZO": {
+  "miss_at": "2026-10-12T15:36:07.717295+00:00"
  },
  "Wise": {
   "ats": "greenhouse",
@@ -347,6 +617,15 @@
   "ats": "greenhouse",
   "slug": "xendit"
  },
+ "Zalando": {
+  "miss_at": "2026-10-12T15:36:56.814369+00:00"
+ },
+ "Zepto": {
+  "miss_at": "2026-10-12T15:36:10.411706+00:00"
+ },
+ "Zerodha": {
+  "miss_at": "2026-10-12T15:35:42.383097+00:00"
+ },
  "Zeta": {
   "ats": "lever",
   "slug": "zeta"
@@ -355,16 +634,36 @@
   "ats": "keka",
   "slug": "zluri"
  },
+ "Zomato / Blinkit": {
+  "miss_at": "2026-10-12T15:36:07.456103+00:00"
+ },
  "Zscaler": {
   "ats": "greenhouse",
   "slug": "zscaler"
+ },
+ "Zupee": {
+  "ats": "zoho",
+  "slug": "zupee"
+ },
+ "apna": {
+  "ats": "workable",
+  "slug": "apna"
  },
  "bunq": {
   "ats": "recruitee",
   "slug": "bunq"
  },
+ "eBay Motors Group": {
+  "miss_at": "2026-10-12T15:37:17.069009+00:00"
+ },
+ "iRobot": {
+  "miss_at": "2026-10-12T15:37:18.495169+00:00"
+ },
  "slice": {
   "ats": "kula",
   "slug": "slice"
+ },
+ "smallcase": {
+  "miss_at": "2026-10-12T15:35:42.276716+00:00"
  }
 }

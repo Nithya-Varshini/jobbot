@@ -1,7 +1,7 @@
 name: job-alerts
 on:
   schedule:
-    - cron: "0 */2 * * *"   # every 2 hours (private repo free-minutes budget)
+    - cron: "*/30 * * * *"   # every 30 min (public repo = unlimited free Action minutes)
   workflow_dispatch:          # lets you run it manually from the Actions tab
     inputs:
       mode:

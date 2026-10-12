@@ -1,9 +1,9 @@
 {
  "min_lpa": 18,
- "max_years_asked": 3,
+ "max_years_asked": 2,
  "threshold": 45,
  "first_run_digest": 10,
- "max_alerts_per_run": 15,
+ "max_alerts_per_run": 30,
  "search_queries": [
   "flutter",
   "mobile developer",
@@ -1885,7 +1885,7 @@
  ],
  "international": {
   "enabled": true,
-  "max_years_asked": 4,
+  "max_years_asked": 2,
   "sponsor_regex": "visa sponsorship|sponsor(ing|ship)? (your |a |the )?(work )?(visa|permit)|(we|will|can|happy to|able to) (fully )?sponsor|visa (support|assistance|and relocation|& relocation)|relocation (package|support|assistance|bonus|allowance|budget)|(we|will) (help|support) (you )?(with )?relocat|relocate you|work permit (support|assistance)|blue card|skilled worker visa|critical skills|open to (international|global) (candidates|applicants|talent)",
   "no_sponsor_regex": "(unable|not able|cannot|can't|can not|won't|will not|do not|don't|does not|doesn't|are not able|is not able)\\s+(to\\s+)?(currently\\s+)?(provide|offer|support|consider)?\\s*(any\\s+)?(visa\\s+|immigration\\s+|work\\s+)?(sponsor|sponsorship|relocation)|without (the need for )?(visa |current or future )?sponsorship|no (visa |immigration )?sponsorship|sponsorship (is )?not (available|offered|provided)|must (already )?(be|have) (legally )?(authori[sz]ed|eligible|the right|permission|a valid work)|(existing|valid|current) right to work|require (a )?work permit|u\\.?s\\.? citizen|security clearance|not offering relocation|no relocation",
   "amazon_countries": [

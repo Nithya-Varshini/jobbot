@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 jobbot - polls company career APIs (Greenhouse, Lever, Ashby, SmartRecruiters,
-Workday, Amazon, Workable, Recruitee, Keka, Kula), scores every opening against your resume profile in
+Workday, Amazon, Workable, Recruitee, Keka, Kula,
+Zoho Recruit, Deel), scores every opening against your resume profile in
 config.json, and sends NEW matches to Telegram.
 
   python jobbot.py            normal run: alert on new matches
@@ -207,13 +208,50 @@ def f_kula(c):
         title = rest.split('"', 1)[0]
         locs = re.findall(r'"location":"([^"]*)"', rest)
         out.append(mkjob(f"kl:{c['slug']}:{jid}", c["name"], title, "; ".join(dict.fromkeys(locs)),
-                         f"https://careers.kula.ai/{c['slug']}/{jid}", detail=("kl", c["slug"], jid)))
+                         f"https://careers.kula.ai/{c['slug']}/{jid}", detail=("ld",)))
+    return out
+
+
+def f_zoho(c):
+    hosts = [c["host"]] if c.get("host") else [f"{c['slug']}.zohorecruit.com", f"{c['slug']}.zohorecruit.in"]
+    for host in hosts:
+        r = S.get(f"https://{host}/jobs/Careers", timeout=TIMEOUT)
+        m = re.search(r'<input type="hidden" value="([^"]*)" id="jobs">', r.text) if r.ok else None
+        if m:
+            break
+    else:
+        raise ValueError("no Zoho Recruit career site")
+    out = []
+    for j in json.loads(html.unescape(m.group(1))):
+        loc = ", ".join(x for x in [j.get("City"), j.get("State"), j.get("Country")] if x)
+        loc += " (Remote)" if j.get("Remote_Job") == "True" else ""
+        out.append(mkjob(f"zr:{host}:{j['id']}", c["name"], j.get("Posting_Title") or j.get("Job_Opening_Name"),
+                         loc, f"https://{host}/jobs/Careers/{j['id']}", clean(j.get("Job_Description"))))
+    return out
+
+
+def f_deel(c):
+    r = S.get(f"https://jobs.deel.com/job-boards/{c['slug']}", timeout=TIMEOUT)
+    r.raise_for_status()
+    # Next.js streams page data as JSON string chunks; job objects sit inside them
+    payload = "".join(json.loads(x) for x in re.findall(r'self\.__next_f\.push\(\[1,("(?:[^"\\]|\\.)*")\]\)', r.text))
+    dec, out = json.JSONDecoder(), []
+    for m in re.finditer(r'\{"id":"[0-9a-f-]{36}","jobId":', payload):
+        j = dec.raw_decode(payload[m.start():])[0]
+        loc = ", ".join(l["location"]["name"] for l in j["job"].get("jobLocations") or [])
+        loc += " (Remote)" if j["job"].get("workArrangementEnum") == "REMOTE" else ""
+        cc = j["job"].get("currentCompensation") or {}
+        comp = ({"min": cc.get("minAmount"), "max": cc.get("maxAmount"), "currency": cc.get("currencyIsoCode"),
+                 "interval": "year"} if cc.get("maxAmount") or cc.get("minAmount") else None)
+        out.append(mkjob(f"dl:{c['slug']}:{j['id']}", c["name"], j.get("title"), loc,
+                         f"https://jobs.deel.com/{c['slug']}/job-details/{j['id']}/overview", comp=comp, detail=("ld",)))
     return out
 
 
 FETCHERS = {"greenhouse": f_greenhouse, "lever": f_lever, "ashby": f_ashby,
             "smartrecruiters": f_smartrecruiters, "workday": f_workday, "amazon": f_amazon,
-            "workable": f_workable, "recruitee": f_recruitee, "keka": f_keka, "kula": f_kula}
+            "workable": f_workable, "recruitee": f_recruitee, "keka": f_keka, "kula": f_kula,
+            "zoho": f_zoho, "deel": f_deel}
 
 
 def fetch_detail(j):
@@ -232,7 +270,7 @@ def fetch_detail(j):
         r.raise_for_status()
         d = r.json()
         j["desc"] = clean(" ".join(d.get(k) or "" for k in ("description", "requirements")))
-    elif kind == "kl":
+    elif kind == "ld":  # schema.org JobPosting embedded in the job page
         r = S.get(j["url"], timeout=TIMEOUT)
         r.raise_for_status()
         m = re.search(r'application/ld\+json">(.*?)</script>', r.text, re.S)
@@ -406,7 +444,7 @@ def fmt(m):
 
 # ----------------------------------------------------------------- auto-detect
 RESOLVED_FILE = ROOT / "resolved.json"
-AUTO_ORDER = ["greenhouse", "lever", "ashby", "smartrecruiters", "workable", "recruitee", "keka", "kula"]
+AUTO_ORDER = ["greenhouse", "lever", "ashby", "smartrecruiters", "workable", "recruitee", "keka", "kula", "zoho", "deel"]
 
 
 def _json_load(path):

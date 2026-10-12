@@ -564,10 +564,8 @@
   },
   {
    "name": "Ultrahuman",
-   "ats": "auto",
-   "slugs": [
-    "ultrahuman"
-   ],
+   "ats": "zoho",
+   "host": "ultrahuman.zohorecruit.in",
    "category": "Consumer / Gaming"
   },
   {
@@ -937,11 +935,8 @@
   },
   {
    "name": "Yellow.ai",
-   "ats": "auto",
-   "slugs": [
-    "yellowai",
-    "yellowmessenger"
-   ],
+   "ats": "zoho",
+   "host": "careers.yellow.ai",
    "category": "SaaS / AI / Dev tools"
   },
   {
@@ -1505,10 +1500,8 @@
   },
   {
    "name": "Klarna",
-   "ats": "auto",
-   "slugs": [
-    "klarna"
-   ],
+   "ats": "deel",
+   "slug": "klarna",
    "category": "International (sponsors / relocates)",
    "any_location": true
   },
@@ -1706,7 +1699,6 @@
    "name": "Shopee / Sea",
    "ats": "auto",
    "slugs": [
-    "sea",
     "shopee"
    ],
    "category": "International (sponsors / relocates)",

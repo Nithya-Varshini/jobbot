@@ -574,7 +574,8 @@
    "name": "Headout",
    "ats": "auto",
    "slugs": [
-    "headout"
+    "headout",
+    "headoutcareers"
    ],
    "category": "Consumer / Gaming"
   },
@@ -599,7 +600,8 @@
    "name": "Lenskart",
    "ats": "auto",
    "slugs": [
-    "lenskart"
+    "lenskart",
+    "lenskartcareers"
    ],
    "category": "Consumer / Gaming"
   },
@@ -749,10 +751,10 @@
   },
   {
    "name": "BrowserStack",
-   "ats": "auto",
-   "slugs": [
-    "browserstack"
-   ],
+   "ats": "workday",
+   "host": "browserstack.wd3.myworkdayjobs.com",
+   "tenant": "browserstack",
+   "site": "External",
    "category": "SaaS / AI / Dev tools"
   },
   {
@@ -952,10 +954,10 @@
   },
   {
    "name": "Uniphore",
-   "ats": "auto",
-   "slugs": [
-    "uniphore"
-   ],
+   "ats": "workday",
+   "host": "uniphore.wd503.myworkdayjobs.com",
+   "tenant": "uniphore",
+   "site": "Uniphore",
    "category": "SaaS / AI / Dev tools"
   },
   {
@@ -1137,11 +1139,10 @@
   },
   {
    "name": "Visa",
-   "ats": "auto",
-   "slugs": [
-    "Visa",
-    "visa"
-   ],
+   "ats": "workday",
+   "host": "visa.wd5.myworkdayjobs.com",
+   "tenant": "visa",
+   "site": "Visa",
    "category": "Global product co.",
    "any_location": true
   },
@@ -1202,10 +1203,10 @@
   },
   {
    "name": "Sprinklr",
-   "ats": "auto",
-   "slugs": [
-    "sprinklr"
-   ],
+   "ats": "workday",
+   "host": "sprinklr.wd1.myworkdayjobs.com",
+   "tenant": "sprinklr",
+   "site": "careers",
    "category": "Global product co.",
    "any_location": true
   },
@@ -1469,7 +1470,8 @@
    "name": "Cleo AI",
    "ats": "auto",
    "slugs": [
-    "cleoai"
+    "cleoai",
+    "cleo-2"
    ],
    "category": "International (sponsors / relocates)",
    "any_location": true
@@ -1828,8 +1830,10 @@
   },
   {
    "name": "Signify (Philips Hue)",
-   "ats": "auto",
-   "slugs": ["signify", "philips"],
+   "ats": "workday",
+   "host": "lighting.wd3.myworkdayjobs.com",
+   "tenant": "lighting",
+   "site": "jobs-and-careers",
    "category": "Flutter Stack",
    "any_location": true,
    "flutter_stack": true

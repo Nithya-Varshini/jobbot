@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 jobbot - polls company career APIs (Greenhouse, Lever, Ashby, SmartRecruiters,
-Workday, Amazon), scores every opening against your resume profile in
+Workday, Amazon, Workable, Recruitee, Keka, Kula), scores every opening against your resume profile in
 config.json, and sends NEW matches to Telegram.
 
   python jobbot.py            normal run: alert on new matches
@@ -179,9 +179,41 @@ def f_recruitee(c):
             for j in r.json().get("offers", [])]
 
 
+def f_keka(c):
+    page = S.get(f"https://{c['slug']}.keka.com/careers/", timeout=TIMEOUT)
+    page.raise_for_status()
+    m = re.search(r"/ats/documents/([0-9a-f-]{36})/", page.text)
+    if not m:
+        raise ValueError("no Keka career portal")
+    r = S.get(f"https://{c['slug']}.keka.com/careers/api/embedjobs/default/active/{m.group(1)}", timeout=TIMEOUT)
+    r.raise_for_status()
+    out = []
+    for j in r.json():
+        loc = "; ".join(", ".join(x for x in [l.get("city"), l.get("countryName")] if x)
+                        for l in j.get("jobLocations") or [])
+        desc = clean(j.get("description")) + (f" Experience: {j['experience']}" if j.get("experience") else "")
+        out.append(mkjob(f"kk:{c['slug']}:{j['id']}", c["name"], j.get("title"), loc,
+                         f"https://{c['slug']}.keka.com/careers/jobdetails/{j['id']}", desc))
+    return out
+
+
+def f_kula(c):
+    r = S.get(f"https://careers.kula.ai/{c['slug']}", timeout=TIMEOUT)
+    r.raise_for_status()
+    text = r.text.replace('\\"', '"')  # job list is embedded as escaped JSON in the page
+    out = []
+    parts = re.split(r'\{"id":(\d+),"account_id":\d+,"title":"', text)[1:]
+    for jid, rest in zip(parts[0::2], parts[1::2]):
+        title = rest.split('"', 1)[0]
+        locs = re.findall(r'"location":"([^"]*)"', rest)
+        out.append(mkjob(f"kl:{c['slug']}:{jid}", c["name"], title, "; ".join(dict.fromkeys(locs)),
+                         f"https://careers.kula.ai/{c['slug']}/{jid}", detail=("kl", c["slug"], jid)))
+    return out
+
+
 FETCHERS = {"greenhouse": f_greenhouse, "lever": f_lever, "ashby": f_ashby,
             "smartrecruiters": f_smartrecruiters, "workday": f_workday, "amazon": f_amazon,
-            "workable": f_workable, "recruitee": f_recruitee}
+            "workable": f_workable, "recruitee": f_recruitee, "keka": f_keka, "kula": f_kula}
 
 
 def fetch_detail(j):
@@ -200,6 +232,11 @@ def fetch_detail(j):
         r.raise_for_status()
         d = r.json()
         j["desc"] = clean(" ".join(d.get(k) or "" for k in ("description", "requirements")))
+    elif kind == "kl":
+        r = S.get(j["url"], timeout=TIMEOUT)
+        r.raise_for_status()
+        m = re.search(r'application/ld\+json">(.*?)</script>', r.text, re.S)
+        j["desc"] = clean(json.loads(m.group(1)).get("description")) if m else ""
     elif kind == "wd":
         _, base, p = j["detail"]
         r = S.get(base + p, timeout=TIMEOUT)
@@ -369,7 +406,7 @@ def fmt(m):
 
 # ----------------------------------------------------------------- auto-detect
 RESOLVED_FILE = ROOT / "resolved.json"
-AUTO_ORDER = ["greenhouse", "lever", "ashby", "smartrecruiters", "workable", "recruitee"]
+AUTO_ORDER = ["greenhouse", "lever", "ashby", "smartrecruiters", "workable", "recruitee", "keka", "kula"]
 
 
 def _json_load(path):

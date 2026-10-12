@@ -1,7 +1,7 @@
 name: job-alerts
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 min (public repo = unlimited free Action minutes)
+    - cron: "7,37 * * * *"   # every 30 min, offset from :00/:30 so GitHub is less likely to delay or drop runs
   workflow_dispatch:          # lets you run it manually from the Actions tab
     inputs:
       mode:
